@@ -11,4 +11,12 @@ export class DataService {
   {
     return this.http.get('https://restcountries.eu/rest/v2/all');
   }
+  getusers()
+  {
+    return this.http.get('https://jsonplaceholder.typicode.com/users ');
+  }
+  getcolors()
+  {
+    return this.http.get('https://reqres.in/api/unknown');
+  }
 }
